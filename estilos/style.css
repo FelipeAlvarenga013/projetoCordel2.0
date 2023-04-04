@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* inport fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+/* Estilos raiz */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilos cabeça */
+header
+section {
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(90deg, #02735E, #014040);
+}
+
+/* Estilos h1 da cabeça*/
+header
+section
+h1 {
+    width: 43vw;
+    margin: auto;
+    font-size: 6vw;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    mix-blend-mode: screen;
+    font-variant: small-caps;
+    background-color: #ffffff;
+    font-family: 'Passero One', cursive;
+    box-shadow: 1px 1px 13px 4px #739d6f;
+}
+
+/* Estilos paragrafo da cabeça */
+header
+section
+p {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Estilos links do paragrafo */
+header
+section
+p > a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+section
+p >a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do article*/
+main
+section.conteneres{
+    padding: 40px 0 40px 0;
+}
+
+/* Estilo do article da img */
+main
+#img1,#img2{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+/* Estilo dos paragrafos das image */
+main
+section
+.paragrafoImg {
+    width: 40vw;
+    padding: 5px;
+    color: #fff;
+    font-weight: normal; 
+    background-color: rgb(0 0 0 / 61%);
+}
+
+/* Estilos da imagem1 */
+main
+#img1 {
+    background: url('../imagem/background001.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
+/* Estilos da imagem2 */
+main
+#img2 {
+    background: url('../imagem/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+/* Estilos dos paragrafos */
+
+section
+article
+p {
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 2.5em;
+    margin: 0 0 5px 25px;
+    font-family: 'Sriracha', cursive;
+}
+
+/* Estilos roda-pe */
+footer
+article {
+    margin-top: 70px;
+}
+
+footer
+article
+p {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Fasthand', cursive;
+    background-image: linear-gradient(90deg, #02735E,#014040);
+}
+
+/* Estilos do links roda-pe */
+footer
+article
+p > a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+/* Estilos de evento do roda-pe */
+footer
+article
+p >a:hover {
+    text-decoration: underline;
+}
